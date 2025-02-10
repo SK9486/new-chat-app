@@ -1,15 +1,11 @@
 import { X } from "lucide-react";
+import { useAuthStore } from "../store/useAuthStore.js";
 import { useChatStore } from "../store/useChatStore.js";
 
 const ChatHeader = () => {
   const { selectedUser, setSelectedUser } = useChatStore();
-  const handleCloseButton = (e) => {
-    e.preventDefault();
-    setSelectedUser(null);
-  };
+  const { onlineUsers } = useAuthStore();
 
-  // const { onlineUsers } = useAuthStore();
-  const onlineUsers = [];
   return (
     <div className="p-2.5 border-b border-base-300">
       <div className="flex items-center justify-between">
@@ -34,7 +30,7 @@ const ChatHeader = () => {
         </div>
 
         {/* Close button */}
-        <button onClick={handleCloseButton}>
+        <button onClick={() => setSelectedUser(null)}>
           <X />
         </button>
       </div>
