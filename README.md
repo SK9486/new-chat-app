@@ -18,7 +18,7 @@ Welcome to the **MERN Stack Chat App** – a real-time chat application built wi
 
 ## 📸 Screenshots
 
-> Add some screenshots of your app here for a visual preview.
+> ![App Screenshot](https://media.licdn.com/dms/image/v2/D4D22AQGEEhelDFNBCw/feedshare-shrink_2048_1536/B4DZTr36DFHIAo-/0/1739124089774?e=1741824000&v=beta&t=elVYcVutFtQiwA45Oows0vHU99muMwfaafY5xETuXC8)
 
 ## 🚀 Getting Started
 
